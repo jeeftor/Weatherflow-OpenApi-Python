@@ -2,15 +2,15 @@
 name = "weatherflow_openapi"
 version = "1.0.0"
 description = "WeatherFlow Tempest API"
-authors = ["OpenAPI Generator Community <jforare@weatherflow.com>"]
+authors = ["OpenAPI Generator Community <jforare@weatherflow.com>", "Jeff Stein <jeffstein@gmail.com>"]
 license = "NoLicense"
 readme = "README.md"
-repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+repository = "https://github.com/jeeftor/Weatherflow-OpenApi-Python"
 keywords = ["OpenAPI", "OpenAPI-Generator", "WeatherFlow Tempest API"]
 include = ["weatherflow_openapi/py.typed"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.11"
 
 urllib3 = ">= 1.25.3"
 python-dateutil = ">=2.8.2"
